@@ -6,7 +6,7 @@
 
 ## 準備
 
-[HW4.zip](https://drive.google.com/drive/folders/19h_TBTt2OR2JVQtjmxnXGgwWbTAgFT1F?usp=sharing) をダウンロードして解凍し、以下のようなディレクトリ構成にしてください。
+[HW4](https://drive.google.com/drive/folders/19h_TBTt2OR2JVQtjmxnXGgwWbTAgFT1F?usp=sharing) をダウンロードして、以下のようなディレクトリ構成にしてください。
 
 ```
 HW4
