@@ -7,7 +7,7 @@ class GraphSearch(object):
     def __init__(self):
         return
 
-    def id_to_tittle(self, path):
+    def id_to_title(self, path):
         pages = {}
         with open(path, encoding='utf-8') as f:
             for data in f.read().splitlines():
@@ -35,8 +35,8 @@ class GraphSearch(object):
                 print(title_name, k)
                 return k
 
-    #find tittle from page dictionary
-    def find_tittle(self, pages, idname):
+    #find title from page dictionary
+    def find_title(self, pages, idname):
         # Googleをタイトルとするページのnameが表示されます
         for k, v in pages.items():
             if k == idname:
@@ -82,7 +82,7 @@ class GraphSearch(object):
 
 if __name__ == "__main__":
     graph = GraphSearch()
-    page_list = graph.id_to_tittle('data/pages.txt')
+    page_list = graph.id_to_title('data/pages.txt')
     link_list = graph.link_list('data/links.txt')
     query = ['Google','人工知能','パソコン','アニメ','ロボット','ハンバーグ','ゲーム','スターバックス','カフェ','企業','タピオカ']
     node_list = [] # covert the word in query to id
@@ -100,4 +100,4 @@ if __name__ == "__main__":
     print(bfs)
     dfs =graph.dfs_traverse(graph_dict, node_list[0])
     print(dfs)
-    # Question : I find it difficult to covert each node from id to tittle in my graph.
+    # Question : I find it difficult to covert each node from id to title in my graph.
