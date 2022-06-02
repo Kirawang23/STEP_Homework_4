@@ -2,11 +2,13 @@
 
 ## 課題内容
 
-### Google"から"渋谷"までをたどる方法をDFSとBFSで探す
+### 1. Google"から"渋谷"までをたどる方法をDFSとBFSで探す
+### 2. Build a graph use some data
+
 
 ## 準備
 
-[HW4](https://drive.google.com/drive/folders/19h_TBTt2OR2JVQtjmxnXGgwWbTAgFT1F?usp=sharing) をダウンロードして、以下のようなディレクトリ構成にしてください。
+[HW4.zip](https://drive.google.com/drive/folders/19h_TBTt2OR2JVQtjmxnXGgwWbTAgFT1F?usp=sharing) をダウンロードして解凍し、以下のようなディレクトリ構成にしてください。
 
 ```
 HW4
@@ -16,6 +18,7 @@ HW4
 │   └── pages.txt
 ├── README.md
 └── HW4.py
+└── HW4_2.py
 ```
 
 ## グラフデータ
@@ -24,6 +27,8 @@ HW4
 
 - pages.txt：各ページのidとタイトルのリスト
 - links.txt：各リンクのリンク元とリンク先のリスト
+- HW4.py:　課題1
+- HW4_2.py　課題2
 
 ### 実行方法
 
@@ -33,4 +38,5 @@ HW4
 
 ```shell
 python3 HW4.py
+python3 HW4_2.py
 ```
